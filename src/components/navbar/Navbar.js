@@ -1,6 +1,8 @@
 import React, {useState} from 'react'
-import {AiOutlineMenu, AiOutlineClose} from 'react-icons/ai'
+import {AiOutlineClose} from 'react-icons/ai'
+import {CgMenuRound} from 'react-icons/cg'
 import './Navbar.css'
+
 
 const Navbar= () => {
 
@@ -16,7 +18,7 @@ const handleClick = () => setClick(!click);
                     <a className='btn' href="/">home</a>
                 </li>
                 <li className='nav-item'>
-                    <a className='btn' href="/">about</a>
+                    <a className='btn' href="#about">about</a>
                 </li>
                 <li className='nav-item'>
                     <a className='btn' href="/">projects</a>
@@ -26,8 +28,9 @@ const handleClick = () => setClick(!click);
                 </li>
             </ul>
             <div onClick={handleClick} className='hamburger'>
-                {click ? <AiOutlineClose className='icon' /> : <AiOutlineMenu className='icon'/>} 
+                {click ? <AiOutlineClose className='icon' /> : <CgMenuRound className='icon'/>} 
             </div>
+
         </div>
     </div>
   )

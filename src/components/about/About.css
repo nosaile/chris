@@ -1,0 +1,75 @@
+
+.about{
+    position: absolute;
+    margin-top: 40.5rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    left: 0;
+    display: flex;
+    text-align: center;
+    justify-content:center
+}
+
+.about-con{
+    height: 900px;
+
+}
+
+.about .icon {
+    color: #f2f3f4;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+hr{
+    width: 100%;
+    margin: auto;
+}
+
+p{
+    color: cyan;
+    font-weight: bold;
+}
+
+.tech-ability {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #f2f3f4;
+}
+
+.welcom{
+    font-size: 1rem;
+    font-weight: bold;
+    color: #f2f3f4;
+}
+
+.personal{
+    font-size: 1rem;
+    font-weight: bold;
+    color: #f2f3f4;
+}
+
+.resume {
+    font-size: 1rem;
+}
+
+@media screen and (max-width: 2400px){
+   p{
+    font-size: 1.5rem;
+   } 
+  }
+  
+  @media screen and (max-width: 940px){
+    p{
+      font-size: 1.25rem;
+    }
+    
+    
+  }
+  
+  @media screen and (max-width: 495px){
+    p{
+      font-size: 1rem;
+    }
+   
+}

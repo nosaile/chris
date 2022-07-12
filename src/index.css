@@ -45,6 +45,7 @@ a {
 @media screen and (max-width: 2000px){
   h1{
     font-size: 3rem;
+    font-weight: bolder;
   }
   h2{
     font-size: 2.5rem;
@@ -55,6 +56,7 @@ a {
 @media screen and (max-width: 940px){
   h1{
     font-size: 2.5rem;
+    font-weight: bolder;
   }
   h2{
     font-size: 2rem;
@@ -65,6 +67,7 @@ a {
 @media screen and (max-width: 495px){
   h1{
     font-size: 2rem;
+    font-weight: bolder;
   }
   h2{
     font-size: 1.5rem;
