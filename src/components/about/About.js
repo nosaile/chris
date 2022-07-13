@@ -17,7 +17,7 @@ const handleClick = () => setClick(!click);
         <br />
         <br />
         <br />
-        <p className='tech-ability'>welcome</p>
+        <p className='welcome'>welcome</p>
         <br />
         <br />
         <br />
@@ -38,7 +38,7 @@ const handleClick = () => setClick(!click);
         <br />
         <br />
         <br />
-        <p className='tech-ability'>personal life</p>
+        <p className='personal'>personal life</p>
         <br />
         <br />
         <br />

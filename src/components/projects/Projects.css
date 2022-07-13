@@ -1,0 +1,28 @@
+.projects {
+    position: absolute;
+    margin-top: 125rem;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    color: cyan;
+}
+
+@media screen and (max-width: 2400px) {
+    p {
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 940px) {
+    p {
+        font-size: 1.25rem;
+    }
+
+
+}
+
+@media screen and (max-width: 495px) {
+    p {
+        font-size: 1rem;
+    }
+}

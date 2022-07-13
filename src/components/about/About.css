@@ -12,7 +12,6 @@
 
 .about-con{
     height: 900px;
-
 }
 
 .about .icon {
@@ -37,7 +36,7 @@ p{
     color: #f2f3f4;
 }
 
-.welcom{
+.welcome{
     font-size: 1rem;
     font-weight: bold;
     color: #f2f3f4;

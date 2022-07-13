@@ -18,13 +18,13 @@ const handleClick = () => setClick(!click);
                     <a className='btn' href="/">home</a>
                 </li>
                 <li className='nav-item'>
-                    <a className='btn' href="#about">about</a>
+                    <a onClick={handleClick} className='btn' href="#about">about</a>
                 </li>
                 <li className='nav-item'>
-                    <a className='btn' href="/">projects</a>
+                    <a className='btn' href="#projects">projects</a>
                 </li>
                 <li className='nav-item'>
-                    <a className='btn' href="/">contact</a>
+                    <a className='btn' href="#contact">contact</a>
                 </li>
             </ul>
             <div onClick={handleClick} className='hamburger'>
