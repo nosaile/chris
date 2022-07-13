@@ -3,8 +3,6 @@ please enjoy
 
 
 
->>>>>>> 928e1c76a009107e1f85554916939a8e3f6dd2dd
-
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
