@@ -20,11 +20,8 @@
     columns: 3;
 }
 
-.project-link {
-    border: 5px;
-    border-style: solid;
-    border-radius: 80px;
-    border-color: cyan;
+.project-link a:hover {
+color: cyan;
 }
 
 @media screen and (max-width: 2400px) {
