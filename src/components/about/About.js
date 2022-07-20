@@ -1,12 +1,9 @@
-import React, {useState} from 'react'
+import React from 'react'
 import './About.css'
 import {RiFolderDownloadLine} from 'react-icons/ri'
 
 
 const About = () => {
-
-//   const [click, setClick] = useState(false);
-// const handleClick = () => setClick(!click);
 
 
   return (
@@ -78,14 +75,13 @@ const About = () => {
         <br />
         <br />
         <br />
-        
+        <a href='/resume/Chris-Eliason-Resume.pdf' download>
         <div className='resume-download icon'>
           <RiFolderDownloadLine />
         <br />
-        <a href='./Chris-Eliason-Resume.pdf' download>
         <p className='resume'>download resume</p>
-        </a>
       </div>
+      </a>
       </span>
       </div>
     </div>
