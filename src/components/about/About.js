@@ -1,12 +1,12 @@
 import React, {useState} from 'react'
 import './About.css'
 import {RiFolderDownloadLine} from 'react-icons/ri'
-import {RiFolderDownloadFill} from 'react-icons/ri'
+
 
 const About = () => {
 
-  const [click, setClick] = useState(false);
-const handleClick = () => setClick(!click);
+//   const [click, setClick] = useState(false);
+// const handleClick = () => setClick(!click);
 
 
   return (
@@ -23,7 +23,7 @@ const handleClick = () => setClick(!click);
         <br />
         <p>
           my name is Christopher Eliason and i<span style={{ color: '#f2f3f4' }}>`</span>m
-          a full stack web developer from Lubbock, TX<span style={{ color: '#f2f3f4' }}>.</span>
+          a full stack web developer from Lubbock<span style={{ color: '#f2f3f4' }}>,</span> TX<span style={{ color: '#f2f3f4' }}>.</span>
         </p>
         <br />
         <br />
@@ -78,15 +78,17 @@ const handleClick = () => setClick(!click);
         <br />
         <br />
         <br />
-        <div onClick={handleClick} className='resume-download'>
-        {click ? <RiFolderDownloadLine className='icon' /> : <RiFolderDownloadFill className='icon' />}
+        
+        <div className='resume-download icon'>
+          <RiFolderDownloadLine />
         <br />
+        <a href='./Chris-Eliason-Resume.pdf' download>
         <p className='resume'>download resume</p>
+        </a>
       </div>
       </span>
       </div>
     </div>
   )
 }
-
 export default About

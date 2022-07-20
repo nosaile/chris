@@ -9,7 +9,7 @@
     justify-content: center;
 }
 
-.project-link{
+.project-link {
     height: 100px;
 }
 
@@ -27,8 +27,35 @@
 }
 
 .project-link a:hover {
-color: cyan;
+    color: cyan;
 }
+
+.contacts {
+    flex-direction: column;
+    display: flex;
+    margin-bottom: 2rem;
+
+}
+
+.logos{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.logo {
+    color: cyan;
+    font-size: 3rem;
+
+}
+
+#linkedin{
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+
+
 
 
 
