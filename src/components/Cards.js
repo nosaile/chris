@@ -5,7 +5,7 @@ import './Cards.css'
 function Cards() {
     return (
         <div className="cards">
-            <h1>About Me</h1>
+            <h1 id='about'>About Me</h1>
             <div className="cards__container">
                 <div className="cards__wrapper">
                     <ul className="cards__items">
@@ -13,7 +13,7 @@ function Cards() {
                             src="../../assets/mtnbike.png"
                             text="I've alway enjoyed mountain biking ever since I was a little kid. 
                             I like to go on rides so I can get out into nature and enjoy the trails."
-                            label="Mountain Biking"
+                            label="Hobbies"
                             path="/"
                         />
                         <CardItem
@@ -21,7 +21,7 @@ function Cards() {
                             text="I attended a coding bootcamp called Codeup in Dallas, TX. 
                             There I learned the in's and out's of software development and being a 
                             full stack developer."
-                            label="Codeup"
+                            label="School"
                             path="/"
                         />
                         <CardItem

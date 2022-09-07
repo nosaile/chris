@@ -10,9 +10,7 @@ export default function Trails() {
 
     return (
         <div>
-            <h1 className="trails">TRAILS</h1>
-            <div>
-            </div>
+            <h1 className="projects">TRAILS</h1>
         </div>
 
     )

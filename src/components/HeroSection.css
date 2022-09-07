@@ -11,11 +11,30 @@
     object-fit: contain;
 }
 
+span{
+    display: flex;
+    color: #EE6C4D;
+    font-size: 20px;
+    margin-left: 25px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+.var{
+    margin-left: 85px;
+}
+
 .hero-container>h1 {
     color: #E9F1F7;
     font-size: 100px;
     padding: 35px;
     margin-top: -100px;
+}
+
+.hero-container>p{
+    color: #E9F1F7;
 }
 
 .hero-container>h1:hover {
