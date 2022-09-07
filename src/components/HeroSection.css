@@ -18,13 +18,13 @@ span{
     margin-left: 25px;
     justify-content: center;
     align-items: center;
-    text-align: center;
+    text-align: left;
 
 }
 
 .var{
     margin-left: 85px;
-    color: #E9F1F7;
+    color: #98C1D9;
 }
 
 .hero-container>h1 {
