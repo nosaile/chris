@@ -1,19 +1,18 @@
 .hero-container {
-    background-color: aquamarine;
-    height: 95vh;
-    width: 100%;
+    background: linear-gradient(110deg, #293241 60%, #98C1D9 60%);height: 95vh;    width: 100%;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
-    text-align: center;
+    text-align: left;
     box-shadow: black;
     object-fit: contain;
 }
 
 .hero-container>h1 {
-    color: white;
+    color: #E0FBFC;
     font-size: 100px;
+    padding: 35px;
     margin-top: -100px;
 }
 
