@@ -18,7 +18,7 @@ function HeroSection() {
 
 useEffect(() => {
     const typed = new Typed(el.current, {
-      strings: ["function scrollDown( ) &#123;\n"],
+      strings: ["function whoIsChrisEliason( ) &#123;\n"],
       typeSpeed: 70,
       smartBackspace: true,
       loop: false,
@@ -29,6 +29,7 @@ useEffect(() => {
         strings: ["var aboutMe = &quot;scroll down to learn about me&quot;;"],
         startDelay: 3200,
         typeSpeed: 70,
+        backSpeed: 100,
         smartBackspace: true,
         loop: true,
         showCursor: false,
@@ -36,7 +37,7 @@ useEffect(() => {
 
     const typed3 = new Typed(l.current, {
         strings: ["\n&rbrace;"],
-        startDelay: 7800,
+        startDelay: 7850,
         typeSpeed: 70,
         smartBackspace: true,
         loop: false,
