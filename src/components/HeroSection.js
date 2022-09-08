@@ -107,7 +107,7 @@ function HeroSection() {
             <span className='comment' ref={r}></span>
             <span className='skills' ref={q}></span>
             <span className='todo' ref={y}></span>
-            <Link to="/contacts"><span className='func-call' ref={t}></span></Link>
+            <Link to="/about"><span className='func-call' ref={t}></span></Link>
         </div>
 
 

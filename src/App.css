@@ -6,7 +6,7 @@
 }
 
 .home,
-.trails {
+.about {
   display: flex;
   height: 90vh;
   align-items: center;
@@ -16,7 +16,7 @@
 
 
 
-.trails {
+.about {
   background-position: center;
   height: 91vh;
   background-size: fill;
