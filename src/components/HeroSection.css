@@ -22,16 +22,16 @@ span {
 
 }
 
-.func{
+.func {
     display: block;
 }
 
-.curly{
+.curly {
     display: block;
 }
 
 .var {
-    margin-left: 85px;
+    margin-left: 75px;
     color: #98C1D9;
     display: block;
 }
@@ -46,35 +46,17 @@ span {
     display: block;
 }
 
+.todo{
+    color: #C2F261;
+    display: block;
+}
+
 .func-call {
-
-    animation: blinkingText 1.2s infinite;
+    color: #EE6C4D;
 }
-@keyframes blinkingText {
-    0% {
-        color: #EE6C4D;
-    }
-
-    49% {
-        color: #EE6C4D;
-    }
-
-    60% {
-        color: #F2F3AE
-    }
-
-    99% {
-        color: #F2F3AE;
-    }
-
-    100% {
-        color: #EE6C4D;
-    }
-}
-
 
 .hero-container>h1 {
-    color: #2EC4B6;
+    color: #E0FBFC;
     font-size: 100px;
     padding: 35px;
     margin-top: -100px;

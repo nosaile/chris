@@ -27,7 +27,7 @@ function Navbar() {
         <>
             <nav className="navbar">
                 <div className="navbar-container">
-                    {/* <Link to="/welcome" className="navbar-logo" onClick={closeMobileMenu}>chris</Link> */}
+                    {/* <Link to="/welcome" className="navbar-logo" onClick={closeMobileMenu}>welcome</Link> */}
                     <div className="menu-icon" onClick={handleClick}>
                         <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
                     </div>

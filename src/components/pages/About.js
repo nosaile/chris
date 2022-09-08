@@ -4,13 +4,13 @@ import '../../App.css';
 
 
 
-export default function Trails() {
+export default function About() {
 
     
 
     return (
         <div>
-            <h1 className="projects">TRAILS</h1>
+            <h1 className="about">About</h1>
         </div>
 
     )
