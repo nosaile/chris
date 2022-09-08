@@ -26,7 +26,7 @@ function HeroSection(props) {
         });
 
         const typed2 = new Typed(e.current, {
-            strings: ["let me = {<br />firstName: &quot;Christopher&quot;,<br />lastName: &quot;Eliason&quot;,<br />hobbies: [ &quot;Mountain Biking&quot; ,  &quot;Video Games&quot; ,  &quot;Eating Mexican Food&quot; ],<br/ >technicalSkills: [],<br />age: 26<br /><br />return    me;"],
+            strings: ["let me = {<br />firstName: &quot;Christopher&quot;,<br />lastName: &quot;Eliason&quot;,<br />hobbies: [ &quot;Mountain Biking&quot; ,  &quot;Video Games&quot; ,  &quot;Eating Mexican Food&quot; ],<br/ >technicalSkills: [],<br />age: 26<br />};<br /><br />return    me;"],
             startDelay: 3200,
             typeSpeed: 70,
             backSpeed: 10,
@@ -55,7 +55,7 @@ function HeroSection(props) {
         });
 
         const typed4 = new Typed(q.current, {
-            strings: ["var arr = [ &quot;Java&quot;, &quot;Javascript&quot;, &quot;React&quot; &quot;HTML&quot;, &quot;CSS&quot;];<br /><br />person.technicalSkills.push(arr);"],
+            strings: ["let arr = [ &quot;Java&quot;, &quot;React&quot;, &quot;Javascript&quot;, &quot;HTML&quot;, &quot;CSS&quot;];<br /><br />me.technicalSkills.push(arr);"],
             typeSpeed: 70,
             startDelay: 26000,
             smartBackspace: true,
