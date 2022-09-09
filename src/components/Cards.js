@@ -14,7 +14,7 @@ function Cards() {
                             text="I've alway enjoyed mountain biking ever since I was a little kid. 
                             I like to go on rides so I can get out into nature and enjoy the trails."
                             label="Hobbies"
-                            path="/"
+                            path="/about"
                         />
                         <CardItem
                             src="../../assets/codeup.png"
@@ -22,15 +22,15 @@ function Cards() {
                             There I learned the in's and out's of software development and being a 
                             full stack developer."
                             label="School"
-                            path="/"
+                            path="/about"
                         />
                         <CardItem
                             src="../../assets/usmc1.png"
                             text="I served four years in the United States Marine Corps as a radio operator. Now 
-                            I'm looking to break into the tech industry.
+                            I'm looking for my next role as a software developer.
                             "
                             label="USMC"
-                            path="/"
+                            path="/about"
                         />
                     </ul>
                 </div>

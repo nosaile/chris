@@ -1,0 +1,32 @@
+.projects-container{
+    background-color: #02040F;
+    height: 100%;
+    color: #EE6C4D;
+}
+
+.project-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10rem;
+    padding-top: 5rem;
+}
+
+.internal-links{
+    padding-top: 2rem;
+    padding-bottom: 10rem;
+}
+
+img{
+    height: 20rem;
+    width: 35rem;
+    box-shadow: 0 3px 10px #98C1D9;
+}
+
+.project-description{
+    font-size: 20px;
+    width: 50%;
+    color: #E0FBFC;
+    padding-left: 3rem;
+    padding-right: 3rem;
+}

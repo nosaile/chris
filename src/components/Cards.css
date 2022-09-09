@@ -12,6 +12,10 @@
     font-size: 25px;
   }
   
+  #about:hover{
+    color: #EE6C4D;
+  }
+  
   .cards__container {
     display: flex;
     flex-flow: column;
