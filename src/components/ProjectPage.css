@@ -1,6 +1,7 @@
 .projects-container{
     background-color: #02040F;
     height: 100%;
+    width: 100%;
     color: #EE6C4D;
 }
 
@@ -29,4 +30,42 @@ img{
     color: #E0FBFC;
     padding-left: 3rem;
     padding-right: 3rem;
+}
+
+@media screen and (max-width: 960px) {
+.project-box{
+    flex-direction: column;
+}
+
+    img{
+        height: 15rem;
+        width: 20rem; 
+    }
+
+    .project-description{
+        padding-bottom: 2.5rem;
+        width: 100%;
+        font-size: 12px;
+    }
+
+    .hide{
+        display: none;
+    }
+
+    
+}
+
+@media screen and (min-width: 961px) {
+
+.project-img{
+    padding-left: 1.75rem;
+    padding-right: 1.75rem;
+}
+    
+.no{
+    display: none;
+}
+
+
+
 }
