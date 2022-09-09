@@ -1,25 +1,21 @@
-import React, { useState } from 'react'
+import React from 'react'
 import { Link } from 'react-router-dom';
 import './ContactPage.css';
 
 function ContactPage() {
-
-    const [click, setClick] = useState(false);
-    const handleClick = () => setClick(!click);
-
 
 
     return (
         <div className="contacts-container">
             <div className="contact-items">
                 <div className="item-link">
-                    <a href="https://www.linkedin.com/in/christopher-eliason/" target="_blank" alt="linkedin link"><i className="fa-brands fa-linkedin"></i></a>
+                    <a href="https://www.linkedin.com/in/christopher-eliason/" rel="noreferrer" target="_blank" alt="linkedin link"><i className="fa-brands fa-linkedin"></i></a>
                 </div>
                 <div className="item-link">
-                    <a href="https://github.com/nosaile" target="_blank" alt="github link"><i className="fa-brands fa-square-github"></i></a>
+                    <a href="https://github.com/nosaile" target="_blank" rel="noreferrer" alt="github link"><i className="fa-brands fa-square-github"></i></a>
                 </div>
                 <div className="item-link">
-                    <a href="mailto: eliason.chris1@gmail.com" target="_blank" alt="email link"><i className="fa-sharp fa-solid fa-envelope"></i></a>
+                    <a href="mailto: eliason.chris1@gmail.com" target="_blank" rel="noreferrer" alt="email link"><i className="fa-sharp fa-solid fa-envelope"></i></a>
                 </div>
             </div>
             <div className="function-call">
