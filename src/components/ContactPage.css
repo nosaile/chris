@@ -1,0 +1,37 @@
+
+.contact-items{
+    display: flex;
+    height: 75vh;
+    width: 100vw;
+    background-color: #02040F;
+    justify-content: center;
+    align-items: center;
+}
+
+.item-link{
+    background: transparent;
+    padding: 100px;
+    font-size: 5rem;
+}
+
+i{
+    color: #E0FBFC;
+}
+
+i:hover{
+    color: #F2F3AE;
+}
+
+.function-call{
+    height: 20vh;
+    background-color: #02040F;
+    color: #02040F;
+}
+
+h1{
+    color: #EE6C4D
+}
+
+h1:hover{
+    color: #E0FBFC;
+}
