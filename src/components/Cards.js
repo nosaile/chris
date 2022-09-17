@@ -11,7 +11,7 @@ function Cards() {
                     <ul className="cards__items">
                     <CardItem
                             src="../../assets/mtnbike.png"
-                            text="I've alway enjoyed mountain biking ever since I was a little kid. 
+                            text="I've always enjoyed mountain biking ever since I was a little kid. 
                             I like to go on rides so I can get out into nature and enjoy the trails."
                             label="Hobbies"
                             path="/about"
