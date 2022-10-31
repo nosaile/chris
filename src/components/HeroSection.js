@@ -28,7 +28,7 @@ function HeroSection() {
         });
 
         const typed2 = new Typed(e.current, {
-            strings: ["let me = {<br />firstName: &quot;Christopher&quot;,<br />lastName: &quot;Eliason&quot;,<br />hobbies: [ &quot;Mountain Biking&quot; ,  &quot;Video Games&quot; ,  &quot;Eating Mexican Food&quot; ],<br/ >technicalSkills: [],<br />age: 26<br />};<br /><br />return    me;"],
+            strings: ["let me = {<br />firstName: &quot;Christopher&quot;,<br />lastName: &quot;Eliason&quot;,<br />hobbies: [ &quot;Mountain Biking&quot; ,  &quot;Video Games&quot; ,  &quot;Eating Mexican Food&quot; ],<br/ >technicalSkills: [],<br />age: 27<br />};<br /><br />return    me;"],
             startDelay: 3200,
             typeSpeed: 70,
             backSpeed: 10,
